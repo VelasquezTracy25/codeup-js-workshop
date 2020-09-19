@@ -37,5 +37,12 @@ function testQuestion(question, element) {
 testQuestion(false, 'm6');
 testQuestion(true, 'm7');
 
+let getEl = function (id){
+return document.getElementById(id);
+}
+
+
+
+
 
 
